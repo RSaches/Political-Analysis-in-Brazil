@@ -1,0 +1,30 @@
+[ARQUIVO BASE: HISTÓRICO POLÍTICO E PARTIDÁRIO BRASILEIRO - 1946 a 2026]
+
+# VISÃO GERAL DE CARGOS E FUNÇÕES:
+- Presidente da República: Chefe do poder Executivo. Executa políticas públicas e tem poder de veto sobre leis.
+- Senadores: Representam os Estados da Federação. Mandato de 8 anos. Analisam leis e aprovam nomeações de Ministros do STF e Banco Central.
+- Governadores: Chefes do Executivo estadual.
+- Prefeitos: Chefes do Executivo municipal.
+- Ministros de Estado: Indicados pelo Presidente. Comandam pastas como Fazenda, Justiça, Saúde, Educação. (Ex: O Ministério da Fazenda cuida da responsabilidade fiscal e tributária).
+
+# PRINCIPAIS PARTIDOS DO BRASIL:
+- PT (Partido dos Trabalhadores): Viés progressista, centro-esquerda. Foco em políticas sociais, expansão do Estado, distribuição de renda.
+- PL (Partido Liberal): Viés conservador, direita. Foco em livre mercado, pautas conservadoras de costumes, redução do Estado.
+- MDB (Movimento Democrático Brasileiro): Centro. Partido fisiológico, focado na governabilidade e alianças estratégicas no Congresso Nacional.
+- PSDB (Partido da Social Democracia Brasileira): Centro/Centro-Direita. Foco em estabilidade econômica.
+- PSOL, PCdoB, PDT: Partidos de esquerda que compõem alianças históricas com pautas sindicais e sociais.
+- PP, Republicanos, União Brasil: Compõem o "Centrão". Partidos pragmáticos focados em emendas parlamentares e acordos de base.
+
+# HISTÓRICO DE PRESIDENTES (Destaques Recentes):
+- Fernando Henrique Cardoso (FHC) [1995-2002]: Plano Real, estabilização econômica, privatizações.
+- Luiz Inácio Lula da Silva [2003-2010]: Crescimento via commodities, Bolsa Família, PAC 1, foco em redução da pobreza.
+- Dilma Rousseff [2011-2016]: PAC 2, intervenção econômica (Nova Matriz), culminando em crise fiscal e Impeachment por crimes de responsabilidade fiscal (Pedaladas).
+- Michel Temer [2016-2018]: Teto de Gastos (PEC 95), Reforma Trabalhista. Foco na recuperação fiscal do Estado.
+- Jair Bolsonaro [2019-2022]: Alinhamento à direita, Reforma da Previdência, foco no agronegócio e privatizações pontuais, gestão polarizada durante a pandemia de Covid-19.
+- Luiz Inácio Lula da Silva (3º Mandato) [2023-Atual]: Foco no Novo PAC, transição ecológica (COP), taxação de grandes fortunas e embates com o Banco Central sobre a taxa Selic.
+
+# CONSTITUIÇÃO FEDERAL - PONTOS DE DEBATE CONSTANTES:
+- Artigo 5º: Direitos fundamentais e cláusulas pétreas (liberdade, igualdade, segurança, propriedade).
+- Artigo 144: Segurança Pública. Sempre citado quando há debates sobre militarização ou desmilitarização das polícias (Polícia Federal, Polícia Civil, Polícia Militar).
+- Artigos 165 a 169: Orçamento e Responsabilidade Fiscal. Base dos embates entre Congresso e Executivo sobre quem controla a verba (Emendas Pix, Orçamento Secreto).
+- Orçamento Impositivo: A constituição obriga o governo a pagar as emendas dos deputados, engessando as decisões ministeriais.

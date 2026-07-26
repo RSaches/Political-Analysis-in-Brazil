@@ -1,0 +1,42 @@
+import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
+import "./globals.css";
+import AppLayout from "@/components/AppLayout";
+import { VideoProvider } from "@/context/VideoContext";
+import FloatingVideoPlayer from "@/components/FloatingVideoPlayer";
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+export const metadata: Metadata = {
+  title: "Olho de Águia - Inteligência",
+  description: "Sistema de Monitoramento e Análise Política",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html
+      lang="en"
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+    >
+      <body className="min-h-full flex flex-col">
+        <VideoProvider>
+          <AppLayout>{children}</AppLayout>
+          <FloatingVideoPlayer />
+        </VideoProvider>
+      </body>
+    </html>
+  );
+}
+

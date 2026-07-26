@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+backend/.env
+
+# Modelos grandes
+backend/models/*.gguf
+
+# Banco vetorial
+chroma_db/
+backend/chroma_db/
+
+# Node
+frontend/node_modules/
+frontend/.next/
