@@ -10,3 +10,8 @@ duckduckgo-search
 groq
 python-dotenv
 httpx
+sqlalchemy
+bcrypt
+pyjwt
+python-multipart
+email-validator

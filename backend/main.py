@@ -23,6 +23,13 @@ def ttl_cache(ttl=300):
 
 app = FastAPI(title="Olho de Águia API", version="1.0.0")
 
+# Setup Database
+import models
+from database import engine
+import auth
+models.Base.metadata.create_all(bind=engine)
+app.include_router(auth.router)
+
 # CORS config to allow Next.js frontend to talk to this backend
 app.add_middleware(
     CORSMiddleware,

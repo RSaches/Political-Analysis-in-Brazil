@@ -1,15 +1,38 @@
-# Python
+# Environment & Keys
+.env
+backend/.env
+*.env
+
+# Python Virtual Environments
+venv/
+backend/venv/
+ENV/
+env/
+
+# Databases
+*.db
+*.sqlite3
+backend/olho_de_aguia.db
+
+# Python cache
 __pycache__/
 *.pyc
-backend/.env
+*.pyo
+*.pyd
 
-# Modelos grandes
-backend/models/*.gguf
-
-# Banco vetorial
+# Vector DB & Models
 chroma_db/
 backend/chroma_db/
+backend/models/*.gguf
 
-# Node
+# Node & Next.js
 frontend/node_modules/
 frontend/.next/
+frontend/out/
+.next/
+node_modules/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp

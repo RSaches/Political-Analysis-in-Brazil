@@ -27,7 +27,7 @@ export default function FloatingVideoPlayer() {
   const [resizeStart, setResizeStart] = useState({ x: 0, y: 0, w: 0, h: 0 });
   const containerRef = useRef<HTMLDivElement>(null);
 
-  const isHome = pathname === '/';
+  const isHome = pathname === '/dashboard';
 
   // Set default position (bottom-right) on first render
   useEffect(() => {
@@ -150,33 +150,10 @@ export default function FloatingVideoPlayer() {
   const videoId = getYouTubeId(globalVideo.content);
   if (!videoId) return null;
 
-  // Na Home, escondemos o floating player (o vídeo é mostrado diretamente na aside)
-  // PORÉM mantemos o iframe renderizado (invisível) para preservar o estado de reprodução
+  // Na Home, escondemos o floating player completamente. 
+  // O vídeo é renderizado nativamente no componente do Dashboard.
   if (isHome) {
-    return (
-      <div
-        style={{
-          position: 'fixed',
-          top: '-9999px',
-          left: '-9999px',
-          width: '1px',
-          height: '1px',
-          overflow: 'hidden',
-          pointerEvents: 'none',
-        }}
-      >
-        <iframe
-          id="global-video-player"
-          width="400"
-          height="225"
-          src={`https://www.youtube.com/embed/${videoId}?autoplay=1&mute=0&enablejsapi=1`}
-          title={globalVideo.title}
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </div>
-    );
+    return null;
   }
 
   return (
